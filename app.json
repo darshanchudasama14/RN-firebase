@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "practice",
+    "slug": "practice",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/favicon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/favicon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/favicon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.darshan04.practice"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "97b276c0-554b-4f59-86d8-ec6ed56a4c27"
+      }
+    },
+    "plugins": [
+      "expo-font",
+      "expo-web-browser"
+    ]
+  }
+}
